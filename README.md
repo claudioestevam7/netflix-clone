@@ -4,16 +4,16 @@
 
 
 <!-- Titulo -->
-<h1 align="center">Gym Project</h1>
+<h1 align="center">Netflix clone</h1>
 
 
 <!-- Icones iniciais -->
 <p align="center">
-  <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/claudioestevam7/GymProject?color=f48915">
+  <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/claudioestevam7/netflix-clone?color=f48915">
 
-  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/claudioestevam7/GymProject?color=f48915">
+  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/claudioestevam7/netflix-clone?color=f48915">
 
-  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/claudioestevam7/GymProject?color=f48915">
+  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/claudioestevam7/netflix-clone?color=f48915">
 
   <!-- <img alt="Licença" src="https://img.shields.io/github/license/claudioestevam7/GymProject?color=f48915"> -->
 
@@ -25,12 +25,6 @@
 </p>
 
 <!-- Status -->
-
-<!-- <h4 align="center"> 
-	🚧  Fitclub 🚀 Em construção...  🚧
-</h4> 
-
-<hr> -->
 
 
 <!-- Topicos -->
@@ -50,15 +44,15 @@
 
 ## :dart: About
 
-This project was developed for a marketing campaign for a gym that needed to stand out digitally. It had been growing locally; however, with online visibility, its campaigns will be more effective.
+Project carried out with the aim of recreating the Netflix website, which features various functions that enhance the user experience and are aesthetically pleasing. The focus was on reproducing exactly the components present on the site. The application connects to an API that provides the catalog and information about movies and series.
 
 The front-end page was created in React, styled with CSS, and marked up in HTML5.
 
 
-Application link [click here](https://gymprojects.netlify.app/)
+Application link [click here](https://clone-netflix-site.netlify.app/)
 
 
-<img  alt="Principal linguagem do projeto" src="/gymsite.gif" style="borderRadius=5">
+<img  alt="Principal linguagem do projeto" src="/sitevideo.gif" style="borderRadius=5">
 
 
 
@@ -93,7 +87,7 @@ Before you begin :checkered_flag:, you need to have [Git](https://git-scm.com) a
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/claudioestevam7/fitclub
+$ git clone https://github.com/claudioestevam7/netflix-clone
 
 # Install the dependencies
 $ npm install
