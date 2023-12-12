@@ -10,9 +10,9 @@ export default () => {
 
 
   const socialNetworks = [
-    { name: "linkedin", icon: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/isabella-ramos-'} ,
-    { name: "github", icon: <FaGithub />, link: 'https://github.com/IsabellaaRamos'},
-    ];
+    { name: "linkedin", icon: <FaLinkedinIn />, link: 'https://www.linkedin.com/in/isabella-ramos-' },
+    { name: "github", icon: <FaGithub />, link: 'https://github.com/IsabellaaRamos' },
+  ];
 
 
 
@@ -20,30 +20,30 @@ export default () => {
   const [featuredData, setFeaturedData] = useState(null);
   const [blackHeader, setBlackHeader] = useState(false);
 
-  useEffect (()=> {
+  useEffect(() => {
     const loadAll = async () => {
       let list = await Tmdb.getHomeList();
       setMovieList(list);
       console.log(list);
 
-      let originals = list.filter(i=> i.slug === 'originals');
+      let originals = list.filter(i => i.slug === 'originals');
       let randomChosen = Math.floor(Math.random() * (originals[0].items.results.length - 1));
-      let chosen  = originals[0].items.results[randomChosen];
+      let chosen = originals[0].items.results[randomChosen];
       let chosenInfo = await Tmdb.getMovieInfo(chosen.id, 'tv');
-     setFeaturedData(chosenInfo);
+      setFeaturedData(chosenInfo);
 
     }
 
     loadAll();
-   
-   
-  },[]);
 
-  useEffect(()=> {
+
+  }, []);
+
+  useEffect(() => {
     const scrollListener = () => {
-      if(window.scrollY > 10) {
+      if (window.scrollY > 10) {
         setBlackHeader(true);
-      } else{
+      } else {
         setBlackHeader(false);
       }
     }
@@ -55,44 +55,44 @@ export default () => {
     }
 
 
-  },[]);
+  }, []);
 
 
   return (
     <div className='page'>
       <Header black={blackHeader} />
 
-     {featuredData &&
-      <FeaturedMovie  item={featuredData} />
-      } 
+      {featuredData &&
+        <FeaturedMovie item={featuredData} />
+      }
 
       <section className='lists'>
-        {movieList.map((item, key)=>(
+        {movieList.map((item, key) => (
           <MovieRow key={key} title={item.title} items={item.items} />
-          
+
         ))}
 
       </section>
 
       <footer>
-        Feito com <span role='img' aria-label='coração'>❤️</span> por Cláudio Estevam<br/>
+        Feito com <span role='img' aria-label='coração'>❤️</span> por Cláudio Estevam<br />
 
-        Direitos de imagem para Netflix <br/>
-        Dados pegos do site themoviedb.org <br/>
-        
-        
-             
-        
-    
+        Direitos de imagem para Netflix <br />
+        Dados pegos do site themoviedb.org <br />
+
+
+
+
+
       </footer>
 
-      <div className='social-networks'>
-          {socialNetworks.map((network) => (
-          <a href={network.link} target='_blank'className='social-btn' id={network.name} key={network.name}>
+      {/* <div className='social-networks'>
+        {socialNetworks.map((network) => (
+          <a href={network.link} target='_blank' className='social-btn' id={network.name} key={network.name}>
             {network.icon}
           </a>
-          ))}
-        </div>
+        ))}
+      </div> */}
 
       {movieList.length <= 0 &&
         <div className='loading'>
@@ -102,7 +102,7 @@ export default () => {
 
     </div>
 
-      
+
 
   );
 

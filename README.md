@@ -1,70 +1,116 @@
-# Getting Started with Create React App
+<div align="center" id="top"> 
+  &#xa0;
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<!-- Titulo -->
+<h1 align="center">Gym Project</h1>
 
-In the project directory, you can run:
 
-### `npm start`
+<!-- Icones iniciais -->
+<p align="center">
+  <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/claudioestevam7/GymProject?color=f48915">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/claudioestevam7/GymProject?color=f48915">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/claudioestevam7/GymProject?color=f48915">
 
-### `npm test`
+  <!-- <img alt="Licença" src="https://img.shields.io/github/license/claudioestevam7/GymProject?color=f48915"> -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/claudioestevam7/GymProject?color=56BEB8" />
 
-### `npm run build`
+  <img alt="Github forks" src="https://img.shields.io/github/forks/claudioestevam7/GymProject?color=56BEB8" />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  <img alt="Github stars" src="https://img.shields.io/github/stars/claudioestevam7/GymProject?color=56BEB8" /> -->
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- Status -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- <h4 align="center"> 
+	🚧  Fitclub 🚀 Em construção...  🚧
+</h4> 
 
-### `npm run eject`
+<hr> -->
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- Topicos -->
+<p align="center">
+  <a href="#dart-sobre">About</a> &#xa0; | &#xa0; 
+  <a href="#sparkles-funcionalidades">Features</a> &#xa0; | &#xa0;
+  <a href="#rocket-tecnologias">Technologies</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-pré-requisitos">Requirements</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-começando">Getting Started</a> &#xa0; | &#xa0;
+  <a href="#memo-licença">License</a> &#xa0; | &#xa0;
+  <a href="https://github.com/claudioestevam7" target="_blank">Author</a>
+</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<br>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## :dart: About
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project was developed for a marketing campaign for a gym that needed to stand out digitally. It had been growing locally; however, with online visibility, its campaigns will be more effective.
 
-### Code Splitting
+The front-end page was created in React, styled with CSS, and marked up in HTML5.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+Application link [click here](https://gymprojects.netlify.app/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+<img  alt="Principal linguagem do projeto" src="/gymsite.gif" style="borderRadius=5">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## :sparkles: Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+:heavy_check_mark: Intuitive design;\
+:heavy_check_mark: Responsiveness;\
+:heavy_check_mark: Openness to upgrades.
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+## :rocket:  Technologies
+
+The following tools were used in the construction of the project:
+
+- <img alt="node" src="node.png"> &#xa0; [Node.js](https://nodejs.org/en/)
+- <img alt="react" src="react.png"> &#xa0; [React](https://pt-br.reactjs.org/)
+- <img alt="js" src="js.png"> &#xa0; [JavaScript](https://pt-br.reactjs.org/)
+- <img alt="css" src="css.png"> &#xa0; [Css](https://pt-br.reactjs.org/)
+- <img alt="html" src="html.png"> &#xa0; [Html](https://pt-br.reactjs.org/)
+
+## :white_check_mark: Requirements
+
+Before you begin :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed on your machine.
+
+
+
+## :checkered_flag: Getting Started
+
+```bash
+# Clone this repository
+$ git clone https://github.com/claudioestevam7/fitclub
+
+# Install the dependencies
+$ npm install
+
+# To start the project
+$ npm start
+
+# The app will initialize in <http://localhost:3000>
+```
+
+## :memo: License
+
+This project is under the MIT license.
+
+
+Made by <a href="https://github.com/claudioestevam7" target="_blank">Cláudio Estevam</a>.
+
+&#xa0;
+
+<a href="#top">Voltar para o topo</a>
